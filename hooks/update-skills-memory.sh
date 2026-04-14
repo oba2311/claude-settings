@@ -41,6 +41,10 @@ Output format (markdown list, no preamble):
 if [ -n "$EVALUATION" ]; then
   echo "" >> "$MEMORY_FILE"
   echo "$EVALUATION" >> "$MEMORY_FILE"
+
+  cd "$HOME/.claude"
+  git add -A
+  git diff --cached --quiet || git commit -m "sync: skills_mapping.md (new skill: $SKILL_NAME)" && git push origin main
 fi
 
 exit 0
