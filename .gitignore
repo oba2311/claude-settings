@@ -1,0 +1,33 @@
+# Runtime / session data
+*.jsonl
+sessions/
+session-env/
+shell-snapshots/
+backups/
+cache/
+debug/
+file-history/
+image-cache/
+paste-cache/
+ide/
+telemetry/
+statsig/
+todos/
+plans/
+scheduled_tasks.lock
+stats-cache.json
+policy-limits.json
+
+# Per-session project data (keep memory/ subdirs)
+projects/*/*
+projects/*/*/*
+!projects/*/memory/
+!projects/*/memory/**
+!projects/*/*/memory/
+!projects/*/*/memory/**
+
+# Machine-specific
+settings.local.json
+
+# Plugins (auto-installed, large)
+plugins/
