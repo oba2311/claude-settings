@@ -6,7 +6,7 @@ type: user
 
 ## Goals
 - Builds productivity dashboards, wants to graduate to full apps
-- Building a triathlon-nutrition command & control app (main project)
+- Building a runner's rehab app (main project; pivoted from triathlon-nutrition)
 
 ## Workflow style
 - Wants things fast, concise, minimal writing
